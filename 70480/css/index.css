@@ -1,0 +1,27 @@
+﻿body {
+}
+
+#menu {
+    background-image: linear-gradient(to right, white, green);
+    width: 800px;
+    height: 40px;
+    margin: 50px 0px 0px 200px;
+}
+
+#menu ul{
+    
+}
+
+/*Apenas o primeiro li será estilizado*/
+#menu ul > li{
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0px 0px 50px;
+}
+
+#menu ul > li:hover {
+    _padding: 5px;
+    background-color: yellow;
+}
+
+

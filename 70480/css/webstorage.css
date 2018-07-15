@@ -1,0 +1,9 @@
+﻿#divCadastro{
+    width:240px;
+}
+#divCadastro > label{
+    display:block;
+}
+#divCadastro button{
+    _float:right;
+}
